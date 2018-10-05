@@ -1,0 +1,15 @@
+#ifndef HEADER
+#define HEADER
+
+#include <QThread>
+
+class Threads
+{
+public:
+    explicit Threads();
+    void run(void func());
+};
+
+
+#endif // HEADER
+
