@@ -1,7 +1,9 @@
 QT += core
 QT -= gui
 
+
 TARGET = emmi-common
+CONFIG += c++14
 CONFIG += console
 CONFIG -= app_bundle
 
